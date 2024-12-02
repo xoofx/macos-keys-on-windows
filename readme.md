@@ -44,13 +44,17 @@ This is an AutoHotkey V2 script designed to bring essential macOS key combinatio
 | `Alt + Shift + Right Arrow`  | `Cmd + Shift + Right Arrow`     | Select to end of line                               |                                                       |
 | `Alt + Shift + Up Arrow`     | `Cmd + Shift + Up Arrow`        | Select to beginning of document                     |                                                       |
 | `Alt + Shift + Down Arrow`   | `Cmd + Shift + Down Arrow`      | Select to end of document                           |                                                       |
-| `Ctrl + Left Arrow`          | `Option + Left Arrow`           | Move one word left                                  |                                                       |
-| `Ctrl + Right Arrow`         | `Option + Right Arrow`          | Move one word right                                 |                                                       |
-| `Ctrl + Shift + Left Arrow`  | `Option + Shift + Left Arrow`   | Select one word left                                |                                                       |
-| `Ctrl + Shift + Right Arrow` | `Option + Shift + Right Arrow`  | Select one word right                               |                                                       |
+| `LWin + Left Arrow`          | `Option + Left Arrow`           | Move one word left                                  |                                                       |
+| `LWin + Right Arrow`         | `Option + Right Arrow`          | Move one word right                                 |                                                       |
+| `LWin + Shift + Left Arrow`  | `Option + Shift + Left Arrow`   | Select one word left                                |                                                       |
+| `LWin + Shift + Right Arrow` | `Option + Shift + Right Arrow`  | Select one word right                               |                                                       |
 | `Alt + Backspace`            | `Option + Delete`               | Delete word before caret                            |                                                       |
 | `Ctrl + Backspace` (Explorer only) | `Cmd + Backspace`         | Delete file                                         | File Explorer-specific.                              |
 | `Ctrl + Alt + Space`         | `Ctrl + Cmd + Space`            | Open emoji picker                                   | Mimics macOS emoji picker.                           |
+
+
+Additionally, as `LWin + Left Arrow` and `LWin + Right Arrow` are remapped above, we are loosing the functionality to move/snap the current Active window, so the script remaps these commands to `LWin + PgUp` and `LWin + Right Up` respectively. This allows to still use the Window snapping with these new keys.
+
 
 ## 💻 Installation
 

@@ -76,6 +76,22 @@ $#Right::Send("{Ctrl down}{Right}{Ctrl up}") ; Move one word right (Mac: Option 
 $#+Left::Send("{Ctrl down}{Shift down}{Left}{Shift up}{Ctrl up}") ; Select one word left (Mac: Option + Shift + Left Arrow)
 $#+Right::Send("{Ctrl down}{Shift down}{Right}{Shift up}{Ctrl up}") ; Select one word right (Mac: Option + Shift + Right Arrow)
 
+; Because the keys above remove LWin + Left, we remap it to LWin + PgUp
+$#PgUp::{
+    Send("{LWin down}{Left}")
+    KeyWait("PgUp")
+    Send("{LWin up}")
+    Return
+}
+
+; Because the keys above remove LWin + Right, we remap it LWin + PgDn
+$#PgDn::{
+    Send("{LWin down}{Right}")
+    KeyWait("PgDn")
+    Send("{LWin up}")
+    Return
+}
+
 !BS::Send("{LShift down}{Home}{LShift up}{Del}") ; Delete word before caret (Mac: Option + Delete)
 
 #HotIf WinActive("ahk_exe explorer.exe") ; File Explorer
