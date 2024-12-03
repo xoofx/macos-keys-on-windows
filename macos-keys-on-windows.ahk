@@ -83,12 +83,24 @@ $#PgUp::{
     Send("{LWin up}")
     Return
 }
+$#+PgUp::{
+    Send("{LWin down}{Shift down}{Left}")
+    KeyWait("PgUp")
+    Send("{Shift up}{LWin up}")
+    Return
+}
 
 ; Because the keys above remove LWin + Right, we remap it LWin + PgDn
 $#PgDn::{
     Send("{LWin down}{Right}")
     KeyWait("PgDn")
     Send("{LWin up}")
+    Return
+}
+$#+PgDn::{
+    Send("{LWin down}{Shift down}{Right}")
+    KeyWait("PgDn")
+    Send("{Shift down}{LWin up}")
     Return
 }
 

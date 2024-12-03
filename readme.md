@@ -53,7 +53,14 @@ This is an AutoHotkey V2 script designed to bring essential macOS key combinatio
 | `Ctrl + Alt + Space`         | `Ctrl + Cmd + Space`            | Open emoji picker                                   | Mimics macOS emoji picker.                           |
 
 
-Additionally, as `LWin + Left Arrow` and `LWin + Right Arrow` are remapped above, we are loosing the functionality to move/snap the current Active window, so the script remaps these commands to `LWin + PgUp` and `LWin + Right Up` respectively. This allows to still use the Window snapping with these new keys.
+Additionally, as `LWin + Left Arrow`, `LWin + Right Arrow`, `LWin + Shift + Left Arrow`, `LWin + Shift + Right Arrow`, are remapped above, we are loosing the functionality to move/snap the current Active window, so the script remaps these commands to
+
+| **New Windows Shortcut**      | **Original Windows Shortcut**       | **Action**                                           | **Comment**                                            |
+|-------------------------------|--------------------------------|------------------------------------------------------|-------------------------------------------------------|
+| `LWin + PgUp`                 | `LWin + Left Arrow`           | Move window to the left                              |                                                       |
+| `LWin + PgDn`                 | `LWin + Right Arrow`          | Move window to the right                             |                                                       |
+| `LWin + Shift + PgUp`         | `LWin + Shift + Left Arrow`   | Move window to the left monitor                      |                                                       |
+| `LWin + Shift + PgDn`         | `LWin + Shift + Right Arrow`  | Move window to the right monitor                     |                                                       |
 
 
 ## 💻 Installation
