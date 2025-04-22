@@ -111,3 +111,5 @@ $#+PgDn::{
 #HotIf
 
 $^!Space::Send("{LWin down}.{LWin up}") ; Emoji picker (Mac: Ctrl + Cmd + Space).
+
+$!Space::Send "^{Esc}" ; Spotlight thing
