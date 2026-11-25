@@ -1,3 +1,5 @@
+
+
 # Basic macOS keys on Windows
 
 This is an AutoHotkey V2 script designed to bring essential macOS key combinations to Windows, making it easier to switch seamlessly between the two operating systems.
@@ -53,7 +55,7 @@ This is an AutoHotkey V2 script designed to bring essential macOS key combinatio
 | `Ctrl + Alt + Space`         | `Ctrl + Cmd + Space`            | Open emoji picker                                   | Mimics macOS emoji picker.                           |
 
 
-Additionally, as `LWin + Left Arrow`, `LWin + Right Arrow`, `LWin + Shift + Left Arrow`, `LWin + Shift + Right Arrow`, are remapped above, we are loosing the functionality to move/snap the current Active window, so the script remaps these commands to
+Additionally, as `LWin + Left Arrow`, `LWin + Right Arrow`, `LWin + Shift + Left Arrow`, `LWin + Shift + Right Arrow`, are remapped above, we are losing the functionality to move/snap the current Active window, so the script remaps these commands to
 
 | **New Windows Shortcut**      | **Original Windows Shortcut**       | **Action**                                           | **Comment**                                            |
 |-------------------------------|--------------------------------|------------------------------------------------------|-------------------------------------------------------|
@@ -81,5 +83,3 @@ This project is licensed under the [Unlicense](https://choosealicense.com/licens
 ## 🤗 Author
 
 Alexandre Mutel aka [XenoAtom](https://xoofx.github.io).
-
-
